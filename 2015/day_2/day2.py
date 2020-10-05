@@ -17,9 +17,9 @@ print(ls)
 for i in range(len(ls)):
     a = ls[i]
     for string in a:
-        newStr = int(string.replace('x', ', '))
+        newStr = (string.replace('x', ', '))
         newList.append([newStr])
-# print(newList)
+print(newList)
 
 
 # num = ("23x15x10")
